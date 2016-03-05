@@ -25,10 +25,10 @@ EXMPL:
 	int i=0;
 	int j=0;
 
-	int array[][][] = new int[3][3][3];
+	int array[][] = new int[3][3];
 	int array_colum_summ[] = new int[3];
 
-
+	
 	System.out.println(array_colum_summ[0]+" "+array_colum_summ[1]+" "+array_colum_summ[3]+" - Col`s sum");
 	System.out.println(total_sum+" - Total");
 	}
